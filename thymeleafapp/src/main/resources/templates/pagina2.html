@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página 2</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<h1>Você está na Página 2</h1>
+<p th:text="'Nome recebido: ' + ${nome}"></p>
+<a th:href="@{/pagina1}">Voltar para Página 1</a>
+</body>
+</html>
